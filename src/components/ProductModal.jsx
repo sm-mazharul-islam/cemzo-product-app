@@ -11,7 +11,7 @@ export default function ProductModal({ product, onClose }) {
           onClick={onClose}
           className="absolute top-4 right-4 text-gray-400 hover:text-gray-700 text-2xl font-bold transition"
         >
-          &times;
+          {/* &times; */}
         </button>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
