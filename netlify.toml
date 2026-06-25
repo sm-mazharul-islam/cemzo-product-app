@@ -1,0 +1,12 @@
+[build]
+  # Specifies the command Vite uses to compile TypeScript/React into optimized static files
+  command = "npm run build"
+  
+  # Outlines the destination folder where Vite outputs production assets
+  publish = "dist"
+
+[[redirects]]
+  # Essential for modern single-page apps (SPA) to prevent 404 errors on route reloads
+  from = "/*"
+  to = "/index.html"
+  status = 200
