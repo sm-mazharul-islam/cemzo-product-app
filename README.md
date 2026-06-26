@@ -23,21 +23,21 @@ This project goes beyond fundamental React configurations to demonstrate product
 ```text
 src/
 ├── components/         # Reusable atomic UI elements
-│   ├── ProductCard.tsx # Individual premium product display card
-│   ├── SearchBar.tsx   # Controlled debounced input component
-│   ├── CategoryFilter.tsx # Category dropdown control element
-│   ├── ProductModal.tsx # Premium overview product detailed viewport overlay
-│   └── Loader.tsx      # Fluid Tailwind CSS skeleton loader animation
+│   ├── ProductCard.jsx # Individual premium product display card
+│   ├── SearchBar.jsx   # Controlled debounced input component
+│   ├── CategoryFilter.jsx # Category dropdown control element
+│   ├── ProductModal.jsx # Premium overview product detailed viewport overlay
+│   └── Loader.jsx      # Fluid Tailwind CSS skeleton loader animation
 ├── pages/
-│   └── Home.tsx        # Dashboard orchestrator layout view
+│   └── Home.jsx        # Dashboard orchestrator layout view
 ├── services/
-│   └── api.ts          # Strongly-typed fetch connection configuration
+│   └── api.js          # Strongly-typed fetch connection configuration
 ├── hooks/
-│   └── useDebounce.ts  # Custom performance search debounce script
+│   └── useDebounce.js  # Custom performance search debounce script
 ├── store/
-│   └── useStore.ts     # Zustand global store configuration script
-├── App.tsx             # Core mount file config
-└── main.tsx            # Application entry configuration
+│   └── useStore.js     # Zustand global store configuration script
+├── App.jsx             # Core mount file config
+└── main.jsx            # Application entry configuration
 ```
 
 1. Prerequisites :
